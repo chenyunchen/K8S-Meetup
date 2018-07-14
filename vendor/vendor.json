@@ -3,6 +3,12 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "CSPbwbyzqA6sfORicn4HFtIhF/c=",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": "8991bc29aa16c548c550c7ff78260e27b9ab7c73",
+			"revisionTime": "2018-02-21T22:46:20Z"
+		},
+		{
 			"checksumSHA1": "nQqAEaB3gBG9PSKYZTbQ5IiN3jo=",
 			"path": "github.com/ghodss/yaml",
 			"revision": "e9ed3c6dfb39bb1a32197cb10d527906fe4da4b6",
@@ -97,6 +103,18 @@
 			"path": "github.com/gregjones/httpcache/diskcache",
 			"revision": "9cad4c3443a7200dd6400aef47183728de563a38",
 			"revisionTime": "2018-03-05T23:10:24Z"
+		},
+		{
+			"checksumSHA1": "UquR8kc0nKU285HwLbkievlLQz4=",
+			"path": "github.com/hashicorp/golang-lru",
+			"revision": "0fb14efe8c47ae851c0034ed7a448854d3d34cf3",
+			"revisionTime": "2018-02-01T23:52:37Z"
+		},
+		{
+			"checksumSHA1": "8Z637dcPkbR5HdLQQBp/9jTbx9Y=",
+			"path": "github.com/hashicorp/golang-lru/simplelru",
+			"revision": "0fb14efe8c47ae851c0034ed7a448854d3d34cf3",
+			"revisionTime": "2018-02-01T23:52:37Z"
 		},
 		{
 			"checksumSHA1": "HMoZ70PrmL9dN5Kxs0dyZa/Z5k4=",
@@ -423,6 +441,12 @@
 			"revisionTime": "2018-07-12T20:53:05Z"
 		},
 		{
+			"checksumSHA1": "iDZJhDuBvccQxRQvfQGGHTXVa2M=",
+			"path": "k8s.io/apimachinery/pkg/apis/meta/internalversion",
+			"revision": "5e3c3f9281db3188d57785c1f6afe5eb504ede4f",
+			"revisionTime": "2018-07-12T20:53:05Z"
+		},
+		{
 			"checksumSHA1": "LKopqdnooclENFiwzPQ/5DxRzv0=",
 			"path": "k8s.io/apimachinery/pkg/apis/meta/v1",
 			"revision": "5e3c3f9281db3188d57785c1f6afe5eb504ede4f",
@@ -525,8 +549,20 @@
 			"revisionTime": "2018-07-12T20:53:05Z"
 		},
 		{
+			"checksumSHA1": "1ufnWmjIV06+kIedtpUTD1P6XNI=",
+			"path": "k8s.io/apimachinery/pkg/util/cache",
+			"revision": "5e3c3f9281db3188d57785c1f6afe5eb504ede4f",
+			"revisionTime": "2018-07-12T20:53:05Z"
+		},
+		{
 			"checksumSHA1": "Gtwo9p42g21v46mUVvj/Qh8yUSE=",
 			"path": "k8s.io/apimachinery/pkg/util/clock",
+			"revision": "5e3c3f9281db3188d57785c1f6afe5eb504ede4f",
+			"revisionTime": "2018-07-12T20:53:05Z"
+		},
+		{
+			"checksumSHA1": "CX718PEuZSqd0wdl7XLwvXVDU0Q=",
+			"path": "k8s.io/apimachinery/pkg/util/diff",
 			"revision": "5e3c3f9281db3188d57785c1f6afe5eb504ede4f",
 			"revisionTime": "2018-07-12T20:53:05Z"
 		},
@@ -867,6 +903,12 @@
 			"revisionTime": "2018-07-12T05:25:07Z"
 		},
 		{
+			"checksumSHA1": "MG3uydLQm1VT4jakFZ+jQ/gz++g=",
+			"path": "k8s.io/client-go/tools/cache",
+			"revision": "a20933ff15b534f4bd3fb4b1b2753be51aff1039",
+			"revisionTime": "2018-07-13T17:10:01Z"
+		},
+		{
 			"checksumSHA1": "TCBw/2DobQ3JpcvXy0hW3IbNWb8=",
 			"path": "k8s.io/client-go/tools/clientcmd",
 			"revision": "f1995823ace22a136dfeccca6b2186d2ff320f11",
@@ -897,6 +939,12 @@
 			"revisionTime": "2018-07-12T05:25:07Z"
 		},
 		{
+			"checksumSHA1": "E8JeIq/Zl3X94M8aPZuvYI0S8gg=",
+			"path": "k8s.io/client-go/tools/pager",
+			"revision": "a20933ff15b534f4bd3fb4b1b2753be51aff1039",
+			"revisionTime": "2018-07-13T17:10:01Z"
+		},
+		{
 			"checksumSHA1": "n2h6CjJR1o+JM2snIIsCdcMMDWs=",
 			"path": "k8s.io/client-go/tools/reference",
 			"revision": "f1995823ace22a136dfeccca6b2186d2ff320f11",
@@ -907,6 +955,12 @@
 			"path": "k8s.io/client-go/transport",
 			"revision": "f1995823ace22a136dfeccca6b2186d2ff320f11",
 			"revisionTime": "2018-07-12T05:25:07Z"
+		},
+		{
+			"checksumSHA1": "lTGzV+HgAXM6vWKFfedFLlIl94E=",
+			"path": "k8s.io/client-go/util/buffer",
+			"revision": "a20933ff15b534f4bd3fb4b1b2753be51aff1039",
+			"revisionTime": "2018-07-13T17:10:01Z"
 		},
 		{
 			"checksumSHA1": "rIxDMrsqcf1cjy3dgMaEZw/TvJs=",
@@ -937,7 +991,19 @@
 			"path": "k8s.io/client-go/util/integer",
 			"revision": "f1995823ace22a136dfeccca6b2186d2ff320f11",
 			"revisionTime": "2018-07-12T05:25:07Z"
+		},
+		{
+			"checksumSHA1": "VK8XBxAuEr0Vp9W96bH1niYlLvc=",
+			"path": "k8s.io/client-go/util/retry",
+			"revision": "a20933ff15b534f4bd3fb4b1b2753be51aff1039",
+			"revisionTime": "2018-07-13T17:10:01Z"
+		},
+		{
+			"checksumSHA1": "wgrkDRwF0RXxN7Z9YMDRVV+KeUU=",
+			"path": "k8s.io/client-go/util/workqueue",
+			"revision": "a20933ff15b534f4bd3fb4b1b2753be51aff1039",
+			"revisionTime": "2018-07-13T17:10:01Z"
 		}
 	],
-	"rootPath": "github.com/chenyunchen/test"
+	"rootPath": "github.com/chenyunchen/K8S-Meetup"
 }
