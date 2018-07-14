@@ -1,0 +1,9 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  namespace: default
+  name: resources-editor
+rules:
+- apiGroups: ["extensions", "apps"]
+  resources: ["deployments", "replicasets", "pods", "services", "endpoints", "jobs", "nodes"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
