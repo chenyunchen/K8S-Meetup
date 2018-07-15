@@ -1,3 +1,10 @@
+# SDN x Cloud Native Meetup #6
+https://cntug.kktix.cc/events/sdn-cntug-6
+這份Readme.md只是方便讓大家去看投影片的註解(因為加了註解產生出來的投影片太醜...)
+要看整份投影片麻煩還是以slide.pdf為主
+
+---
+
 autoscale: true
 slidenumbers: true
 theme: Ostrich, 5
@@ -9,7 +16,7 @@ theme: Ostrich, 5
 ## Kubernetes Library 
 ## 開發實戰
 ### with client-go
-#### **SDN x Cloud Native Meetup #6**
+#### **SDN x Cloud Native Meetup #6
 
 ---
 
